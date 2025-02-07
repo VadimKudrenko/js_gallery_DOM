@@ -16,12 +16,4 @@ link.forEach((item) => {
       galleryImage.setAttribute('src', imageLink);
     }
   });
-
-  item.addEventListener('mouseover', () => {
-    item.parentElement.style.borderBottom = '1px solid black';
-  });
-
-  item.addEventListener('mouseout', () => {
-    item.parentElement.style.borderBottom = 'none';
-  });
 });
